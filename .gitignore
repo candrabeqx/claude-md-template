@@ -1,0 +1,7 @@
+.DS_Store
+*.swp
+*~
+
+# Local Claude settings — never share
+settings.local.json
+.claude/settings.local.json
