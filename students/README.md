@@ -1,6 +1,6 @@
 # Starter kit — AI Security Fluency
 
-Take-home material from the ITSEC Cyber & AI Academy class *AI Security Fluency: using AI safely and productively* (PIDI Digital Talent Expo, Jakarta, 24 September 2026). Everything here works with any AI assistant — ChatGPT, Gemini, Claude — free tier included.
+Take-home material from the ITSEC Cyber & AI Academy class *AI Security Fluency: using AI safely and productively* (PIDI Digital Talent Expo, Jakarta, 24 September 2026). Short link to this repository: **git.candra.me**. Everything here works with any AI assistant — ChatGPT, Gemini, Claude — free tier included.
 
 | File | What it is |
 |---|---|
