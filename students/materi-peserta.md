@@ -69,20 +69,37 @@ Situasi: kamu magang di tim marketing sebuah startup aplikasi pembayaran (e-wall
 3. **Uji dengan aturan.** Prompt yang sama di chat yang sudah punya aturan. Catat di Lembar: apakah AI memperingatkan nomor HP Bu Sari (aturan 1)? apakah AI menanyakan/menyatakan Task / Context / Constraints / Done (aturan 2)?
 4. **Jadikan milikmu.** Ubah atau tambah **dua aturan** untuk hidupmu sendiri — data skripsi, akun kampus, pekerjaan magang. Tulis di Lembar; nanti disalin ke Kartu AI Aman.
 
-**Catatan meeting (bahan mentah)**
+**Catatan meeting (bahan mentah — salin semuanya)**
 
 ```text
-Catatan meeting tim marketing — minggu ke-38
+CATATAN MEETING TIM MARKETING — MINGGU KE-38
+Peserta: Dimas (lead), Rina (desain), Fajar (ads), Putri (CS), saya (magang)
 
-Senin — sync mingguan. Kampanye "Back to Campus" (cashback 20% untuk pengguna baru mahasiswa) jalan sejak 8 Sep. Install naik, tapi conversion ke transaksi pertama masih 1,2% (target 2%). Dimas usul ganti landing page. Bu Sari (klien, PT Maju Jaya — mitra merchant kampus) minta laporan progress hari Jumat, kontak: 0812-3456-7890.
+SENIN — sync mingguan
+- Kampanye "Back to Campus" (cashback 20% untuk pengguna baru mahasiswa) jalan sejak 8 Sep.
+- Install naik, tapi conversion ke transaksi pertama masih 1,2% (target 2%).
+- Dimas usul ganti landing page. Fajar: "coba dulu ganti headline, jangan bongkar semua".
+- Bu Sari (klien, PT Maju Jaya — mitra merchant kampus) minta laporan progress hari Jumat.
+  Kontak: 0812-3456-7890 / sari.wijaya@majujaya.co.id
+- Dashboard internal: https://metrics.internal.dompetku.id/campaign/btc-2026 (login pakai akun kantor)
 
-Selasa — desain landing page baru v2 dari Rina. Belum di-approve siapa pun. Budget iklan bulan ini sisa Rp 14 juta dari Rp 40 juta.
+SELASA — desain
+- Rina kirim landing page v2 (Figma). Belum di-approve siapa pun. Dimas mau lihat dulu Rabu.
+- Budget iklan bulan ini sisa Rp 14 juta dari Rp 40 juta. Fajar minta tambahan Rp 10 juta, belum dijawab.
 
-Rabu — ada komplain di Instagram soal cashback yang belum masuk (5 komentar). Dimas bilang ini "biasa". Belum ada respon resmi.
+RABU — komplain
+- 5 komentar di Instagram soal cashback yang belum masuk. Putri sudah balas 2, sisanya belum.
+- Dimas bilang ini "biasa, tiap kampanye ada". Belum ada respon resmi dari tim.
+- Putri: ada 1 nasabah yang mengancam lapor ke OJK. Nama: Bapak Hendra, akun HENDRA88.
 
-Kamis — meeting sama vendor influencer batal, reschedule minggu depan. Tim outing 3 Oktober jadi.
+KAMIS — vendor
+- Meeting sama vendor influencer (Kreasi Media) batal, reschedule minggu depan.
+- Tim outing 3 Oktober jadi, tempat masih voting: Puncak atau Bandung.
+- Rina ulang tahun Jumat, patungan kado Rp 50 ribu per orang ke rekening Fajar.
 
-Jumat — CEO tanya kapan conversion naik. Belum ada jawaban.
+JUMAT — CEO
+- Pak Arif (CEO) tanya di grup: "kapan conversion naik? saya butuh angka untuk investor Senin".
+- Belum ada jawaban dari tim. Dimas: "kita bilang saja butuh 2 minggu lagi".
 ```
 
 ---
@@ -93,12 +110,89 @@ Aturan 1 cuma mengingatkan — klasifikasinya tetap keputusanmu, dan AI tidak ta
 
 | # | Situasi | Yang mau dikirim ke AI publik |
 |---|---|---|
-| 1 | Kamu mau AI memperbaiki tata bahasa surat lamaran kerjamu. | Surat lengkap: nama, alamat rumah, nomor HP, email, isi surat. |
-| 2 | Kamu magang IT. Server kantor error, kamu mau AI menjelaskan errornya. | Potongan log: `ERROR conn to postgres://admin:S3cret!@10.0.4.12/prod-db timeout after 30s (host: db-prod-01.internal.majujaya.co.id)` |
-| 3 | Tugas kelompok: bikin kuis latihan dari materi kuliah. | Slide dosen yang sudah dipublikasikan di web kampus. |
-| 4 | Kamu fresh grad di bank. Atasan minta analisis "kenapa nasabah ini komplain". | Transkrip chat CS: nama nasabah, NIK, nomor rekening, isi komplain. |
-| 5 | Kamu mau AI me-review kode tugas akhirmu. | File `map.js` — di dalamnya ada `const API_KEY = "AIzaSy...";` (Google Maps key milikmu). |
-| 6 | Kamu karyawan baru. Diminta merapikan draft dokumen. | File internal berjudul "Strategi Harga Produk 2027 — CONFIDENTIAL". |
+| 1 | Kamu mau AI memperbaiki tata bahasa surat lamaran kerjamu. | Surat lengkap (bahan A). |
+| 2 | Kamu magang IT. Server kantor error, kamu mau AI menjelaskan errornya. | Potongan log (bahan B). |
+| 3 | Tugas kelompok: bikin kuis latihan dari materi kuliah. | Slide dosen yang sudah dipublikasikan di web kampus (bahan C). |
+| 4 | Kamu fresh grad di bank. Atasan minta analisis "kenapa nasabah ini komplain". | Transkrip chat CS (bahan D). |
+| 5 | Kamu mau AI me-review kode tugas akhirmu. | File `map.js` (bahan E). |
+| 6 | Kamu karyawan baru. Diminta merapikan draft dokumen. | Dokumen internal "Strategi Harga Produk 2027 — CONFIDENTIAL" (bahan F). |
+
+**Bahan A — surat lamaran**
+
+```text
+Bandung, 15 September 2026
+
+Kepada Yth. HRD PT Aplikasi Kita
+Jl. Sudirman No. 45, Jakarta
+
+Dengan hormat,
+Saya, Andi Prasetyo (lahir Bandung, 3 Maret 2004), alamat Jl. Melati No. 12, Bandung 40123,
+HP 0812-9876-5432, email andi.prasetyo@contoh.id, bermaksud melamar posisi Junior Data Analyst.
+Saya lulusan S1 Sistem Informasi (IPK 3,45) dan pernah magang 3 bulan sebagai data entry di
+PT Sinar Abadi, dimana saya terbiasa dengan Excel dan SQL dasar.
+Saya bersedia mengikuti tes dan wawancara kapan pun dibutuhkan.
+
+Hormat saya,
+Andi Prasetyo
+```
+
+**Bahan B — potongan log server**
+
+```text
+2026-09-16T09:41:03Z INFO  api.orders  request id=8f3a start
+2026-09-16T09:41:33Z ERROR db.pool     conn to postgres://admin:S3cret!@10.0.4.12/prod-db timeout after 30s (host: db-prod-01.internal.majujaya.co.id)
+2026-09-16T09:41:33Z WARN  api.orders  request id=8f3a failed: DB unavailable, returning 503
+2026-09-16T09:41:34Z INFO  api.health  /healthz 200 (db: degraded)
+```
+
+**Bahan C — slide kuliah (sudah publik di web kampus)**
+
+```text
+Basis Data — Pertemuan 7: Normalisasi
+1NF: setiap kolom berisi nilai atomik; tidak ada kolom berulang.
+2NF: 1NF + setiap kolom non-kunci bergantung penuh pada kunci utama.
+3NF: 2NF + tidak ada ketergantungan transitif antar kolom non-kunci.
+Contoh: tabel Pesanan(id_pesanan, id_pelanggan, nama_pelanggan, kota) → pisahkan Pelanggan(id_pelanggan, nama, kota).
+Latihan: normalkan tabel Nilai(nim, nama_mhs, kode_mk, nama_mk, nilai) sampai 3NF.
+```
+
+**Bahan D — transkrip chat CS bank**
+
+```text
+[10:02] CS Rani: Selamat pagi, dengan Bapak Budi Santoso? Mohon konfirmasi NIK dan nomor rekening.
+[10:03] Nasabah: NIK 3273010203040005, rekening 1234567890 a.n. Budi Santoso.
+[10:03] CS Rani: Terima kasih. Ada yang bisa dibantu?
+[10:04] Nasabah: Transfer Rp 2.500.000 ke rekening anak saya tanggal 14 September gagal tapi saldo terpotong.
+[10:05] CS Rani: Saya cek. Transaksi ref TRX-20260914-77812 status "pending reversal". Dana kembali maksimal 3 hari kerja.
+[10:06] Nasabah: Ini kedua kalinya bulan ini. Kalau tidak selesai saya lapor OJK.
+[10:07] CS Rani: Mohon maaf atas ketidaknyamanannya, Pak. Saya eskalasi ke tim settlement, nomor tiket CS-44821.
+```
+
+**Bahan E — `map.js`**
+
+```javascript
+// peta lokasi UMKM binaan — tugas akhir
+const API_KEY = "AIzaSyD-FAKE-KEY-1234567890abcdefghijkl";
+const center = { lat: -6.9147, lng: 107.6098 };
+
+function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), { center, zoom: 12 });
+  fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=Bandung&key=${API_KEY}`)
+    .then((r) => r.json())
+    .then((d) => console.log(d.results[0].geometry.location));
+}
+```
+
+**Bahan F — dokumen internal**
+
+```text
+STRATEGI HARGA PRODUK 2027 — CONFIDENTIAL — dilarang disebarkan di luar tim Produk & Finance
+1. Paket Basic naik dari Rp 49.000 ke Rp 59.000 mulai Q2 2027 (margin 38% → 44%).
+2. Paket Pro tetap Rp 149.000 sampai kompetitor X merilis paket barunya (perkiraan Maret 2027).
+3. Diskon 30% untuk 3 bulan pertama hanya untuk segmen kampus; diskon corporate dihapus.
+4. Target: 12.000 pelanggan berbayar per Desember 2027 (saat ini 7.400).
+5. Rencana akuisisi startup pesaing (kode: "Merak") masih dalam due diligence; jangan disebut di luar.
+```
 
 ---
 

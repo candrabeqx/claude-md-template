@@ -17,7 +17,8 @@ case "$tool" in
   *)     exit 0 ;;
 esac
 pattern='(credentials[^ "/]*|[^ "/]*\.pem|[^ "/]*\.key|id_rsa[^ "/]*|\.env(\.[^ "/]*)?)'
-if printf '%s' "$target" | grep -Eq "(^|/)$pattern(\"|$| )"; then
+# the name may start the string, follow a slash, or follow a space (as in "cat .env.production")
+if printf '%s' "$target" | grep -Eq "(^|/| )$pattern(\"|$| )"; then
   echo "blocked by hook: '$target' looks like a secret file. Ask the human to read it." >&2
   exit 2
 fi
