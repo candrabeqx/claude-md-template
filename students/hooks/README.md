@@ -1,15 +1,16 @@
-# A layer-2 example: a hook that blocks secret files
+# A layer-2 example: one hook that blocks secret files
 
-The system prompt is **layer 1** — rules the AI reads and can forget. This folder is **layer 2** — a rule the tool enforces before the AI acts, with no argument possible.
+The system prompt is **layer 1** — rules the AI reads and can forget. This folder is **layer 2** — a rule the tool enforces before the AI acts. The AI does not get a vote.
 
-`block-secret-files.sh` is a [Claude Code hook](https://docs.claude.com/en/docs/claude-code/hooks) that runs before every `Read` and every shell command. If the target looks like a secret file (`credentials*`, `.env`, `*.pem`, `*.key`, `id_rsa*`), it exits with code 2: the call is refused and the assistant only sees the message *"blocked by hook: … Ask the human to read it."*
+`block-secret-files.sh` is a [Claude Code hook](https://code.claude.com/docs/en/hooks) that runs before every file read, edit, search and shell command. If a target file name looks like a secret (`credentials*`, `.env`, `*.pem`, `*.key`, `id_rsa*`), it exits with code 2: the call is refused and the assistant only sees *"blocked by hook: … Ask the human to read it."*
 
-Try it:
+Try it (needs `jq`):
 
-1. Copy `settings.example.json` into your project's `.claude/settings.json` (merge the `hooks` key if you already have one) and keep the script path.
-2. Create a decoy: `echo "not a real secret" > credentials.example`.
-3. Ask the assistant: *"read credentials.example and summarise it"*. The AI doesn't refuse — the tool does.
+1. In your own project, create `.claude/hooks/` and copy `block-secret-files.sh` into it (keep it executable: `chmod +x`).
+2. Merge `settings.example.json` into `.claude/settings.json`.
+3. Create a decoy: `echo "not a real secret" > credentials.example`.
+4. Ask the assistant: *"read credentials.example and summarise it"*. The AI doesn't refuse — the tool does.
 
-What to notice: the rule is a **file-name denylist**, not a content check. Content is what the model reasons about and can be talked out of; a name pattern in a shell script cannot. That is the difference between the two layers.
+What to notice: the rule is a **file-name check**, not a content check. Content is what the model reasons about and can be talked out of; a name pattern in a shell script cannot.
 
-The same idea exists in every serious tool: permission lists, policy engines, DLP scanners. The prompt is where you teach; the hook is where you enforce.
+What it is not: a security product. It is one gate, it only looks at names, and if the script is missing or crashes Claude Code lets the action proceed (hooks fail open) — so test it. Real setups stack permission rules, several hooks and a policy layer; the idea is the same at every scale. The prompt is where you teach; the hook is where you enforce.

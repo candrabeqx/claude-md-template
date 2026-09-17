@@ -15,8 +15,8 @@ Tempat, tgl lahir : Bandung, 3 Maret 2004
 NIK             : 3273031203040002
 Alamat          : Jl. Melati No. 12, RT 04/RW 07, Sukajadi, Bandung 40162
 Telepon         : 0812-9876-5432
-Email           : andi.prasetyo@contoh.id
-Pendidikan      : S1 Sistem Informasi, Universitas Pasundan Raya (lulus Agustus 2026, IPK 3,45)
+Email           : andi.prasetyo@contoh.example
+Pendidikan      : S1 Sistem Informasi, Universitas Bumi Priangan (lulus Agustus 2026, IPK 3,45)
 
 bermaksud melamar posisi Junior Data Analyst sebagaimana diumumkan di situs karier perusahaan pada 10 September 2026.
 

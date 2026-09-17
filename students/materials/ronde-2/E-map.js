@@ -1,7 +1,7 @@
-// peta lokasi UMKM binaan — tugas akhir Rizky (Teknik Informatika, 2026)
+// peta lokasi UMKM binaan — tugas akhir saya (Teknik Informatika, 2026)
 // halaman: umkm/index.html — menampilkan titik lokasi mitra dan rute terdekat dari kampus
 
-const API_KEY = "AIzaSyD-FAKE-KEY-1234567890abcdefghijkl"; // Google Maps key milik Rizky
+const API_KEY = "AIzaSyD-FAKE-KEY-1234567890abcdefghijkl"; // Google Maps key saya
 const CAMPUS = { lat: -6.9147, lng: 107.6098 };
 const DATA_URL = "./data/umkm.json";
 
@@ -16,7 +16,8 @@ async function loadUmkm() {
 
 // nilai dari umkm.json masuk ke HTML info window — escape dulu supaya nama/alamat yang
 // mengandung tag tidak dieksekusi sebagai markup
-const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const ESCAPES = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ESCAPES[c]);
 
 function addMarker(item) {
   const marker = new google.maps.Marker({

@@ -2,7 +2,7 @@
 
 *Fresh graduate Teknik Informatika — tertarik pada data, QA, dan produk digital*
 
-rizky.pratama@contoh.id  |  0813-0000-1234  |  Jakarta, Indonesia  |  linkedin.com/in/rizkypratama-contoh
+rizky.pratama@contoh.example  |  0813-0000-1234  |  Jakarta, Indonesia  |  linkedin.com/in/rizkypratama-contoh
 
 ## Ringkasan
 
@@ -15,12 +15,13 @@ Lulusan baru S1 Teknik Informatika dengan pengalaman magang QA di startup aplika
 - Menyusun laporan bug di spreadsheet dan Jira: langkah reproduksi, tangkapan layar, tingkat keparahan
 - Mendampingi rilis mingguan bersama 2 developer; ikut regression test sebelum publish ke Play Store
 
-Data Analyst (freelance, remote) untuk 3 klien UMKM — Jan 2025–Jun 2026 (1,5 tahun): membangun laporan penjualan bulanan dengan SQL (PostgreSQL) dan Python (pandas), dashboard sederhana di Google Sheets.
+**Data Analyst (freelance, remote) untuk 3 klien UMKM** — 3 klien UMKM · Jan 2025–Jun 2026 (1,5 tahun)
+- Membangun laporan penjualan bulanan dengan SQL (PostgreSQL) dan Python (pandas), dashboard sederhana di Google Sheets.
 
 ## Proyek
 
 **Tugas akhir — sistem rekomendasi menu kantin kampus** — proyek kampus · 2026
-- Membangun basis data MySQL dari 3 bulan data transaksi kantin (fiktif, 8.000 baris) dan query laporan penjualan harian
+- Membangun basis data MySQL dari 3 bulan data transaksi kantin (8.000 baris) dan query laporan penjualan harian
 - Model rekomendasi sederhana berbasis item yang sering dibeli bersama (Python, pandas); dokumentasi dan pengujian
 
 **Dashboard kehadiran himpunan** — proyek kampus · 2024

@@ -1,25 +1,31 @@
 #!/usr/bin/env bash
-# Layer 2 in one file: a Claude Code PreToolUse hook that refuses to read or print files
-# that usually hold secrets, no matter what the prompt says. The model never sees the
+# One layer-2 gate, as a toy you can read in a minute: a Claude Code PreToolUse hook that
+# refuses tool calls whose target file name looks like a secret. The model never sees the
 # content; it only sees the refusal on stderr. Exit code 2 = block the tool call.
 #
-# Blocks: credentials*, *.pem, *.key, id_rsa*, .env and .env.* — in Read and in shell
-# commands (cat/less/head/tail/sed/awk/grep on those paths). Extend the pattern to taste;
-# keep it a denylist of file names, not of words — content inspection is what the
-# model does, this layer must not depend on it.
+# It is deliberately small. It matches file NAMES (credentials*, *.pem, *.key, id_rsa*,
+# .env, .env.*) inside Read/Edit/Write/Grep/Glob targets and shell commands, token by
+# token. It does not follow globs, symlinks, base64 or "python -c open(...)" — a real
+# setup layers permission rules, several hooks and a policy engine on top. The point is
+# the mechanism: a rule the model cannot argue with.
+#
+# Requires jq (brew install jq / apt install jq). If the hook is missing or crashes, Claude
+# Code lets the action proceed — a hook that fails open is a hook you must test.
 set -euo pipefail
 input="$(cat)"
-tool="$(printf '%s' "$input" | sed -n 's/.*"tool_name":"\([^"]*\)".*/\1/p')"
-target=""
+tool="$(printf '%s' "$input" | jq -r '.tool_name // empty')"
 case "$tool" in
-  Read)  target="$(printf '%s' "$input" | sed -n 's/.*"file_path":"\([^"]*\)".*/\1/p')" ;;
-  Bash)  target="$(printf '%s' "$input" | sed -n 's/.*"command":"\(.*\)".*/\1/p')" ;;
-  *)     exit 0 ;;
+  Read|Edit|Write|Grep|Glob) target="$(printf '%s' "$input" | jq -r '.tool_input.file_path // .tool_input.path // .tool_input.pattern // empty')" ;;
+  Bash)                      target="$(printf '%s' "$input" | jq -r '.tool_input.command // empty')" ;;
+  *)                         exit 0 ;;
 esac
-pattern='(credentials[^ "/]*|[^ "/]*\.pem|[^ "/]*\.key|id_rsa[^ "/]*|\.env(\.[^ "/]*)?)'
-# the name may start the string, follow a slash, or follow a space (as in "cat .env.production")
-if printf '%s' "$target" | grep -Eq "(^|/| )$pattern(\"|$| )"; then
-  echo "blocked by hook: '$target' looks like a secret file. Ask the human to read it." >&2
-  exit 2
-fi
+pattern='^(credentials.*|.*[.]pem|.*[.]key|id_rsa.*|[.]env([.].*)?)$'
+# split on whitespace and quotes, look at the basename of every token
+for tok in $(printf '%s' "$target" | tr "\"'" '  '); do
+  base="${tok##*/}"
+  if [[ "$base" =~ $pattern ]]; then
+    echo "blocked by hook: '$tok' looks like a secret file. Ask the human to read it." >&2
+    exit 2
+  fi
+done
 exit 0

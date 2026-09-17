@@ -1,15 +1,15 @@
 # Catatan Meeting Tim Marketing — Minggu ke-38 (14–18 September 2026)
 
 **Tim:** Dimas (lead), Rina (desain), Fajar (ads), Putri (CS), Aldi (magang)
-**Produk:** DompetKu — aplikasi pembayaran (e-wallet) untuk mahasiswa dan UMKM kampus
+**Produk:** SakuKampus — aplikasi pembayaran (e-wallet) untuk mahasiswa dan UMKM kampus
 
 ## Senin, 14 September — sync mingguan
 
 - Kampanye **"Back to Campus"** (cashback 20% untuk pengguna baru mahasiswa) berjalan sejak 8 September.
 - Install naik dibanding minggu lalu. Conversion dari install ke transaksi pertama masih **1,2%** (target 2%).
 - Dimas mengusulkan mengganti landing page. Fajar: *"coba dulu ganti headline dan tombol, jangan bongkar semua — kita cuma punya dua minggu."*
-- Bu Sari (klien, PT Maju Jaya — mitra merchant kampus) minta laporan progress hari Jumat. Kontak: 0812-3456-7890, sari.wijaya@majujaya.co.id.
-- Dashboard internal kampanye: https://metrics.internal.dompetku.id/campaign/btc-2026 (login pakai akun kantor; jangan dibagikan ke luar).
+- Bu Sari (klien, PT Maju Jaya — mitra merchant kampus) minta laporan progress hari Jumat. Kontak: 0812-3456-7890, sari.wijaya@majujaya.example.
+- Dashboard internal kampanye: https://metrics.internal.sakukampus.example/campaign/btc-2026 (login pakai akun kantor; jangan dibagikan ke luar).
 - Aksi: Rina — landing page v2 (Selasa). Fajar — hitung ulang bid iklan. Aldi — rapikan catatan mingguan untuk direktur.
 
 ## Selasa, 15 September — desain & budget

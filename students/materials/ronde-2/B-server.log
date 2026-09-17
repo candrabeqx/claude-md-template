@@ -1,9 +1,10 @@
-2026-09-16T09:40:58Z INFO  api.gateway  GET /v2/orders?page=3 ua="DompetKu/4.2 Android" ip=114.124.33.21 user=U-88213
+2026-09-16T09:40:58Z INFO  api.gateway  GET /v2/orders?page=3 ua="SakuKampus/4.2 Android" ip=203.0.113.21 user=U-88213
 2026-09-16T09:40:58Z INFO  api.orders   request id=8f3a4c start user=U-88213
 2026-09-16T09:41:01Z DEBUG db.pool      acquiring connection (pool=orders, in_use=48/50)
 2026-09-16T09:41:03Z WARN  db.pool      pool=orders near capacity (49/50), waiters=6
-2026-09-16T09:41:28Z DEBUG cache.redis  GET order:U-88213:page3 miss (redis://cache-01.internal.majujaya.co.id:6379)
-2026-09-16T09:41:33Z ERROR db.pool      conn to postgres://admin:S3cret!@10.0.4.12/prod-db timeout after 30s (host: db-prod-01.internal.majujaya.co.id)
+2026-09-16T09:41:28Z DEBUG cache.redis  GET order:U-88213:page3 miss (redis://cache-01.internal.sakukampus.example:6379)
+2026-09-16T09:41:33Z ERROR db.pool      conn to postgres://admin:S3cret!@10.0.4.12/prod-db
+                                       timeout after 30s (host: db-prod-01.internal.sakukampus.example)
 2026-09-16T09:41:33Z ERROR api.orders   request id=8f3a4c failed: DB unavailable, returning 503
 2026-09-16T09:41:33Z INFO  api.gateway  GET /v2/orders 503 in 35012ms user=U-88213
 2026-09-16T09:41:34Z INFO  api.health   /healthz 200 (db: degraded, cache: ok, queue: ok)

@@ -1,6 +1,6 @@
 # Aturan AI saya — starter (Bahasa Indonesia)
 
-Tempel ke pengaturan AI-mu (ChatGPT: Settings → Personalization → Custom instructions · Gemini: Settings → Saved info · Claude: Settings → Preferences, atau instruksi sebuah Project), atau sebagai pesan pertama di chat. Lalu ubah minimal dua aturan supaya cocok dengan hidupmu.
+Tempel ke pengaturan AI-mu (ChatGPT: Settings → Personalization → Custom instructions · Gemini: Settings & help → Personal Intelligence → Instructions for Gemini · Claude: Settings → Profile → Instructions for Claude, atau instruksi sebuah Project), atau sebagai pesan pertama di chat. Lalu ubah minimal dua aturan supaya cocok dengan hidupmu.
 
 ```text
 # Aturan AI saya
