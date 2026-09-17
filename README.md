@@ -22,6 +22,10 @@ That's it. Single file. No scripts, no rule fragments to install, no OS dependen
 
 **Testing policy is strict** — failing test first for bugs, tests alongside implementation — with a narrow exemption table. Adjust the table if your project genuinely has different exemptions; don't widen it casually.
 
+## For students and non-developers
+
+The same idea at everyday scale — an 8-rule "system prompt" for ChatGPT, Gemini or Claude, grouped by *when* each rule fires — lives in [`students/`](students/) (English and Bahasa Indonesia), together with the exercises from the *AI Security Fluency* class. Short link: **git.candra.me**.
+
 ## Install
 
 ```sh
