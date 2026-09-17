@@ -23,3 +23,12 @@ An AI assistant is a genius intern with three habits: it makes things up confide
 ## Try the hack yourself
 
 `materi-peserta.md` has a fictional CV in which one line is *white text* in the real PDF — invisible to a human reviewer, read by the AI. Ask an AI with no rules to score it: the planted line lifts the score. Ask an AI with rules 3–5: it has to quote its evidence, and the only line supporting the high score is the one that isn't in the visible document. That is the whole class in one exercise.
+
+## What's next — if you build agents
+
+Everything above is **layer 1: rules the AI reads**. It can forget them, misread them, or be talked out of them — the hidden-text CV shows how. The moment an AI can *act* (run commands, send email, change records) you need the two layers a prompt cannot provide:
+
+- **Layer 2 — rules the tool enforces.** Checks that run before or after an action: a scan for secrets before anything leaves the machine, a block on destructive commands, a permission list, a policy classifier that approves routine actions and holds risky ones. The model never gets to argue with these. `CLAUDE.md` in this repository is a layer-1 file for a coding assistant; the gates around it live in the tool's settings and hooks — see [Claude Code hooks](https://docs.claude.com/en/docs/claude-code/hooks) for one implementation.
+- **Layer 3 — a human.** Whatever the first two escalate waits for a person.
+
+Rule of thumb: if breaking a rule would be expensive, it belongs in layer 2, not in the prompt. The prompt is where you teach; the hook is where you enforce.
