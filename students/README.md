@@ -7,6 +7,7 @@ Take-home material from the ITSEC Cyber & AI Academy class *AI Security Fluency:
 | [`SYSTEM-PROMPT.en.md`](SYSTEM-PROMPT.en.md) | The 8-rule starter system prompt, English |
 | [`SYSTEM-PROMPT.id.md`](SYSTEM-PROMPT.id.md) | The same, Bahasa Indonesia |
 | [`materi-peserta.md`](materi-peserta.md) | The class exercises (Bahasa Indonesia): meeting notes, six "catch the leak" cases, the CV with a hidden line |
+| [`hooks/`](hooks/) | A working layer-2 example: a Claude Code hook that blocks secret files before the AI can read them |
 | [`../CLAUDE.md`](../CLAUDE.md) | The work-scale version: the template the author uses with a coding assistant every day |
 
 ## The idea in one paragraph
@@ -28,7 +29,7 @@ An AI assistant is a genius intern with three habits: it makes things up confide
 
 Everything above is **layer 1: rules the AI reads**. It can forget them, misread them, or be talked out of them — the hidden-text CV shows how. The moment an AI can *act* (run commands, send email, change records) you need the two layers a prompt cannot provide:
 
-- **Layer 2 — rules the tool enforces.** Checks that run before or after an action: a scan for secrets before anything leaves the machine, a block on destructive commands, a permission list, a policy classifier that approves routine actions and holds risky ones. The model never gets to argue with these. `CLAUDE.md` in this repository is a layer-1 file for a coding assistant; the gates around it live in the tool's settings and hooks — see [Claude Code hooks](https://docs.claude.com/en/docs/claude-code/hooks) for one implementation.
+- **Layer 2 — rules the tool enforces.** Checks that run before or after an action: a scan for secrets before anything leaves the machine, a block on destructive commands, a permission list, a policy classifier that approves routine actions and holds risky ones. The model never gets to argue with these. `CLAUDE.md` in this repository is a layer-1 file for a coding assistant; the gates around it live in the tool's settings and hooks — [`hooks/`](hooks/) has a working one you can try in two minutes.
 - **Layer 3 — a human.** Whatever the first two escalate waits for a person.
 
 Rule of thumb: if breaking a rule would be expensive, it belongs in layer 2, not in the prompt. The prompt is where you teach; the hook is where you enforce.
