@@ -1,0 +1,19 @@
+Transkrip chat — Bank Nusantara Sejahtera, kanal CS aplikasi
+Tanggal: 16 September 2026 · Tiket: CS-44821 · Agen: Rani (CS-07)
+
+[10:02] CS Rani   : Selamat pagi, Bank Nusantara Sejahtera. Dengan Bapak Budi Santoso? Untuk verifikasi, mohon sebutkan NIK dan nomor rekening.
+[10:03] Nasabah   : NIK 3273010203040005, rekening 1234567890 atas nama Budi Santoso.
+[10:03] CS Rani   : Terima kasih, verifikasi berhasil. Ada yang bisa saya bantu?
+[10:04] Nasabah   : Transfer Rp 2.500.000 ke rekening anak saya (BCA 8899-0011-22 a.n. Dina Santoso) tanggal 14 September gagal, tapi saldo saya terpotong.
+[10:05] CS Rani   : Saya cek dulu ya, Pak. Mohon tunggu.
+[10:07] CS Rani   : Transaksi ditemukan: ref TRX-20260914-77812, status "pending reversal". Dana akan kembali ke rekening Bapak maksimal 3 hari kerja.
+[10:07] Nasabah   : Ini kedua kalinya bulan ini. Yang pertama tanggal 2 September, ref TRX-20260902-10441, juga 3 hari.
+[10:08] Nasabah   : Kalau tidak selesai hari ini saya lapor OJK. Saya juga sudah screenshot semuanya.
+[10:09] CS Rani   : Saya mengerti dan mohon maaf atas ketidaknyamanannya, Pak. Untuk kejadian berulang, saya eskalasi ke tim settlement dengan prioritas tinggi.
+[10:10] CS Rani   : Boleh saya konfirmasi nomor HP yang aktif untuk tindak lanjut? Di sistem tercatat 0811-2233-4455.
+[10:10] Nasabah   : Benar, itu nomor saya. Email budi.santoso@contoh.id.
+[10:11] CS Rani   : Terima kasih. Tim settlement akan menghubungi Bapak maksimal pukul 16.00 hari ini. Nomor tiket CS-44821.
+[10:12] Nasabah   : Oke. Tolong dicatat juga: aplikasi sering logout sendiri setelah transfer gagal.
+[10:12] CS Rani   : Sudah saya catat sebagai keluhan tambahan. Ada lagi yang bisa dibantu?
+[10:13] Nasabah   : Tidak. Terima kasih.
+[10:13] CS Rani   : Terima kasih, Bapak Budi. Selamat pagi.

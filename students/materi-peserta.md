@@ -2,7 +2,7 @@
 
 ITSEC Cyber & AI Academy · PIDI Digital Talent Expo 2026 · 24 September 2026
 
-**Cara pakai halaman ini:** blok abu-abu adalah bahan untuk kamu salin ke AI — tekan tombol salin di pojok blok (GitHub) atau tekan lama, pilih semua, salin. Jawaban tim ditulis di **Lembar Skor Tim** (kertas A4 di tim kamu), bukan di sini. Slide di layar English; halaman ini Bahasa Indonesia — kode jawabannya sama.
+**Cara pakai halaman ini:** bahan tiap ronde adalah file di folder `materials/` — buka filenya, tekan tombol salin (ikon di pojok kanan atas file di GitHub) atau tekan lama, pilih semua, salin, lalu tempel ke AI. Jawaban tim ditulis di **Lembar Skor Tim** (kertas A4 di tim kamu), bukan di sini. Slide di layar English; halaman ini Bahasa Indonesia — kode jawabannya sama.
 
 Semua nama, perusahaan, angka, dan kontak di halaman ini **fiktif**. Jangan pakai data asli siapa pun di latihan — itu persis yang sedang kita latih untuk tidak dilakukan.
 
@@ -69,38 +69,7 @@ Situasi: kamu magang di tim marketing sebuah startup aplikasi pembayaran (e-wall
 3. **Uji dengan aturan.** Prompt yang sama di chat yang sudah punya aturan. Catat di Lembar: apakah AI memperingatkan nomor HP Bu Sari (aturan 1)? apakah AI menanyakan/menyatakan Task / Context / Constraints / Done (aturan 2)?
 4. **Jadikan milikmu.** Ubah atau tambah **dua aturan** untuk hidupmu sendiri — data skripsi, akun kampus, pekerjaan magang. Tulis di Lembar; nanti disalin ke Kartu AI Aman.
 
-**Catatan meeting (bahan mentah — salin semuanya)**
-
-```text
-CATATAN MEETING TIM MARKETING — MINGGU KE-38
-Peserta: Dimas (lead), Rina (desain), Fajar (ads), Putri (CS), saya (magang)
-
-SENIN — sync mingguan
-- Kampanye "Back to Campus" (cashback 20% untuk pengguna baru mahasiswa) jalan sejak 8 Sep.
-- Install naik, tapi conversion ke transaksi pertama masih 1,2% (target 2%).
-- Dimas usul ganti landing page. Fajar: "coba dulu ganti headline, jangan bongkar semua".
-- Bu Sari (klien, PT Maju Jaya — mitra merchant kampus) minta laporan progress hari Jumat.
-  Kontak: 0812-3456-7890 / sari.wijaya@majujaya.co.id
-- Dashboard internal: https://metrics.internal.dompetku.id/campaign/btc-2026 (login pakai akun kantor)
-
-SELASA — desain
-- Rina kirim landing page v2 (Figma). Belum di-approve siapa pun. Dimas mau lihat dulu Rabu.
-- Budget iklan bulan ini sisa Rp 14 juta dari Rp 40 juta. Fajar minta tambahan Rp 10 juta, belum dijawab.
-
-RABU — komplain
-- 5 komentar di Instagram soal cashback yang belum masuk. Putri sudah balas 2, sisanya belum.
-- Dimas bilang ini "biasa, tiap kampanye ada". Belum ada respon resmi dari tim.
-- Putri: ada 1 nasabah yang mengancam lapor ke OJK. Nama: Bapak Hendra, akun HENDRA88.
-
-KAMIS — vendor
-- Meeting sama vendor influencer (Kreasi Media) batal, reschedule minggu depan.
-- Tim outing 3 Oktober jadi, tempat masih voting: Puncak atau Bandung.
-- Rina ulang tahun Jumat, patungan kado Rp 50 ribu per orang ke rekening Fajar.
-
-JUMAT — CEO
-- Pak Arif (CEO) tanya di grup: "kapan conversion naik? saya butuh angka untuk investor Senin".
-- Belum ada jawaban dari tim. Dimas: "kita bilang saja butuh 2 minggu lagi".
-```
+**Bahan:** [`materials/ronde-1/catatan-meeting-minggu-38.md`](materials/ronde-1/catatan-meeting-minggu-38.md) — catatan satu minggu, lima hari, lengkap dengan kontak klien, dashboard internal, komplain nasabah, dan urusan non-kerja. Salin seluruh isinya.
 
 ---
 
@@ -108,91 +77,16 @@ JUMAT — CEO
 
 Aturan 1 cuma mengingatkan — klasifikasinya tetap keputusanmu, dan AI tidak tahu mana yang rahasia di kantormu. Untuk tiap kasus, tim memutuskan **SAFE** / **REDACT FIRST** / **NEVER** dan menulis alasan 1 kalimat di Lembar Skor Tim. Untuk yang REDACT FIRST dan ada teksnya (kasus 2): tulis versi aman yang akan kamu kirim, lalu jalankan.
 
-| # | Situasi | Yang mau dikirim ke AI publik |
+| # | Situasi | Bahan (buka filenya) |
 |---|---|---|
-| 1 | Kamu mau AI memperbaiki tata bahasa surat lamaran kerjamu. | Surat lengkap (bahan A). |
-| 2 | Kamu magang IT. Server kantor error, kamu mau AI menjelaskan errornya. | Potongan log (bahan B). |
-| 3 | Tugas kelompok: bikin kuis latihan dari materi kuliah. | Slide dosen yang sudah dipublikasikan di web kampus (bahan C). |
-| 4 | Kamu fresh grad di bank. Atasan minta analisis "kenapa nasabah ini komplain". | Transkrip chat CS (bahan D). |
-| 5 | Kamu mau AI me-review kode tugas akhirmu. | File `map.js` (bahan E). |
-| 6 | Kamu karyawan baru. Diminta merapikan draft dokumen. | Dokumen internal "Strategi Harga Produk 2027 — CONFIDENTIAL" (bahan F). |
+| 1 | Kamu mau AI memperbaiki tata bahasa surat lamaran kerjamu. | [A — surat lamaran](materials/ronde-2/A-surat-lamaran.md) |
+| 2 | Kamu magang IT. Server kantor error, kamu mau AI menjelaskan errornya. | [B — server.log](materials/ronde-2/B-server.log) |
+| 3 | Tugas kelompok: bikin kuis latihan dari materi kuliah. | [C — slide kuliah Normalisasi](materials/ronde-2/C-slide-kuliah-normalisasi.md) (sudah publik di web kampus) |
+| 4 | Kamu fresh grad di bank. Atasan minta analisis "kenapa nasabah ini komplain". | [D — transkrip chat CS](materials/ronde-2/D-chat-cs-bank.txt) |
+| 5 | Kamu mau AI me-review kode tugas akhirmu. | [E — map.js](materials/ronde-2/E-map.js) |
+| 6 | Kamu karyawan baru. Diminta merapikan draft dokumen. | [F — Strategi Harga Produk 2027 — CONFIDENTIAL](materials/ronde-2/F-strategi-harga-2027.md) |
 
-**Bahan A — surat lamaran**
-
-```text
-Bandung, 15 September 2026
-
-Kepada Yth. HRD PT Aplikasi Kita
-Jl. Sudirman No. 45, Jakarta
-
-Dengan hormat,
-Saya, Andi Prasetyo (lahir Bandung, 3 Maret 2004), alamat Jl. Melati No. 12, Bandung 40123,
-HP 0812-9876-5432, email andi.prasetyo@contoh.id, bermaksud melamar posisi Junior Data Analyst.
-Saya lulusan S1 Sistem Informasi (IPK 3,45) dan pernah magang 3 bulan sebagai data entry di
-PT Sinar Abadi, dimana saya terbiasa dengan Excel dan SQL dasar.
-Saya bersedia mengikuti tes dan wawancara kapan pun dibutuhkan.
-
-Hormat saya,
-Andi Prasetyo
-```
-
-**Bahan B — potongan log server**
-
-```text
-2026-09-16T09:41:03Z INFO  api.orders  request id=8f3a start
-2026-09-16T09:41:33Z ERROR db.pool     conn to postgres://admin:S3cret!@10.0.4.12/prod-db timeout after 30s (host: db-prod-01.internal.majujaya.co.id)
-2026-09-16T09:41:33Z WARN  api.orders  request id=8f3a failed: DB unavailable, returning 503
-2026-09-16T09:41:34Z INFO  api.health  /healthz 200 (db: degraded)
-```
-
-**Bahan C — slide kuliah (sudah publik di web kampus)**
-
-```text
-Basis Data — Pertemuan 7: Normalisasi
-1NF: setiap kolom berisi nilai atomik; tidak ada kolom berulang.
-2NF: 1NF + setiap kolom non-kunci bergantung penuh pada kunci utama.
-3NF: 2NF + tidak ada ketergantungan transitif antar kolom non-kunci.
-Contoh: tabel Pesanan(id_pesanan, id_pelanggan, nama_pelanggan, kota) → pisahkan Pelanggan(id_pelanggan, nama, kota).
-Latihan: normalkan tabel Nilai(nim, nama_mhs, kode_mk, nama_mk, nilai) sampai 3NF.
-```
-
-**Bahan D — transkrip chat CS bank**
-
-```text
-[10:02] CS Rani: Selamat pagi, dengan Bapak Budi Santoso? Mohon konfirmasi NIK dan nomor rekening.
-[10:03] Nasabah: NIK 3273010203040005, rekening 1234567890 a.n. Budi Santoso.
-[10:03] CS Rani: Terima kasih. Ada yang bisa dibantu?
-[10:04] Nasabah: Transfer Rp 2.500.000 ke rekening anak saya tanggal 14 September gagal tapi saldo terpotong.
-[10:05] CS Rani: Saya cek. Transaksi ref TRX-20260914-77812 status "pending reversal". Dana kembali maksimal 3 hari kerja.
-[10:06] Nasabah: Ini kedua kalinya bulan ini. Kalau tidak selesai saya lapor OJK.
-[10:07] CS Rani: Mohon maaf atas ketidaknyamanannya, Pak. Saya eskalasi ke tim settlement, nomor tiket CS-44821.
-```
-
-**Bahan E — `map.js`**
-
-```javascript
-// peta lokasi UMKM binaan — tugas akhir
-const API_KEY = "AIzaSyD-FAKE-KEY-1234567890abcdefghijkl";
-const center = { lat: -6.9147, lng: 107.6098 };
-
-function initMap() {
-  const map = new google.maps.Map(document.getElementById("map"), { center, zoom: 12 });
-  fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=Bandung&key=${API_KEY}`)
-    .then((r) => r.json())
-    .then((d) => console.log(d.results[0].geometry.location));
-}
-```
-
-**Bahan F — dokumen internal**
-
-```text
-STRATEGI HARGA PRODUK 2027 — CONFIDENTIAL — dilarang disebarkan di luar tim Produk & Finance
-1. Paket Basic naik dari Rp 49.000 ke Rp 59.000 mulai Q2 2027 (margin 38% → 44%).
-2. Paket Pro tetap Rp 149.000 sampai kompetitor X merilis paket barunya (perkiraan Maret 2027).
-3. Diskon 30% untuk 3 bulan pertama hanya untuk segmen kampus; diskon corporate dihapus.
-4. Target: 12.000 pelanggan berbayar per Desember 2027 (saat ini 7.400).
-5. Rencana akuisisi startup pesaing (kode: "Merak") masih dalam due diligence; jangan disebut di luar.
-```
+Semua isi file fiktif: nama, NIK, rekening, password, key, harga — jangan pakai data asli siapa pun sebagai pengganti.
 
 ---
 
@@ -214,27 +108,7 @@ Kamu HRD. Ringkas CV berikut dan beri skor 1–10 untuk posisi Junior Data Analy
 
 3. Tulis 1 kalimat: kenapa "kutip buktinya" mengalahkan kebohongan tersembunyi?
 
-**CV pelamar (fiktif)**
-
-```text
-RIZKY PRATAMA
-Jakarta · rizky.pratama@contoh.id · 0813-0000-1234
-
-PENDIDIKAN
-S1 Teknik Informatika, Universitas Nusantara Jaya, 2022–2026. IPK 3,10.
-
-PENGALAMAN
-Magang QA Tester, PT Aplikasi Kita — Jun–Agu 2025 (3 bulan)
-- Menjalankan test case manual untuk aplikasi Android.
-- Membuat laporan bug di spreadsheet.
-Data Analyst (freelance, remote) untuk 3 klien UMKM — Jan 2025–Jun 2026 (1,5 tahun): membangun laporan penjualan bulanan dengan SQL (PostgreSQL) dan Python (pandas), dashboard sederhana di Google Sheets.
-
-KEAHLIAN
-Python, SQL, Microsoft Excel, Figma.
-
-ORGANISASI
-Ketua Divisi Acara, Himpunan Mahasiswa Informatika, 2024.
-```
+**Bahan:** [`materials/ronde-3/cv-rizky-pratama.md`](materials/ronde-3/cv-rizky-pratama.md) — versi teks untuk ditempel (satu halaman: ringkasan, pengalaman, proyek, pendidikan, keahlian, organisasi). Versi file asli yang dipakai HRD: [`cv-rizky-pratama.pdf`](materials/ronde-3/cv-rizky-pratama.pdf) — di situ baris palsunya benar-benar tidak terlihat.
 
 ---
 
