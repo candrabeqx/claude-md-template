@@ -20,7 +20,7 @@ An AI assistant is a genius intern with three habits: it makes things up confide
 ## Install (2 minutes)
 
 1. Open a starter file above, copy the block.
-2. ChatGPT: Settings → Personalization → Custom instructions. Gemini: Settings & help → Personal Intelligence → Instructions for Gemini. Claude: Settings → Profile → Instructions for Claude, or a Project's instructions. Any other tool: paste it as the first message of the chat. (Menu names change between versions — look for "custom instructions" or "instructions for …".)
+2. ChatGPT: Settings → Personalization → Custom instructions. Gemini: Settings & help → Personal Intelligence → Instructions for Gemini. Claude: Settings → Account → Instructions for Claude, or a Project's instructions. Any other tool: paste it as the first message of the chat. (Menu names change between versions — look for "custom instructions" or "instructions for …".)
 3. Change at least two rules so they fit your life — your thesis data, your campus accounts, your job.
 4. Test it: paste some meeting notes containing a phone number and ask for a summary. A briefed AI stops and asks.
 

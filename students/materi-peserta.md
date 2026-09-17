@@ -52,7 +52,7 @@ Versi English: [`SYSTEM-PROMPT.en.md`](SYSTEM-PROMPT.en.md) (file di folder yang
 |---|---|
 | ChatGPT | Settings → Personalization → Custom instructions |
 | Gemini | Settings & help → Personal Intelligence → Instructions for Gemini (beberapa wilayah: "Saved info") |
-| Claude | Settings → Profile → Instructions for Claude, atau instruksi sebuah Project |
+| Claude | Settings → Account → Instructions for Claude, atau instruksi sebuah Project |
 | Tool lain / tidak ada pengaturan | Tempel sebagai pesan pertama chat: "Aturan untuk percakapan ini:" + blok di atas |
 
 ## Template prompt (aturan 2, dari sisi kamu)

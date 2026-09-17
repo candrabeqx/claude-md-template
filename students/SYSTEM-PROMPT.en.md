@@ -1,6 +1,6 @@
 # My AI rules — starter (English)
 
-Paste this into your AI's settings (ChatGPT: Settings → Personalization → Custom instructions · Gemini: Settings & help → Personal Intelligence → Instructions for Gemini · Claude: Settings → Profile → Instructions for Claude, or a Project's instructions), or as the first message of a chat. Then change at least two rules so they fit your life.
+Paste this into your AI's settings (ChatGPT: Settings → Personalization → Custom instructions · Gemini: Settings & help → Personal Intelligence → Instructions for Gemini · Claude: Settings → Account → Instructions for Claude, or a Project's instructions), or as the first message of a chat. Then change at least two rules so they fit your life.
 
 ```text
 # My AI rules
