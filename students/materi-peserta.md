@@ -4,13 +4,13 @@ ITSEC Cyber & AI Academy · PIDI Digital Talent Expo 2026 · 24 September 2026
 
 **Sebelum mulai**
 
-- Satu HP per tim menjalankan AI (**operator**); yang lain membuka bahan dan menulis (**pencatat** memegang Lembar Skor Tim).
+- Kerjakan di HP-mu sendiri; boleh berdiskusi dengan tetangga. Jawaban ditulis di **Lembar Kerja** (kertas, satu per orang) — milikmu, dicek sendiri, dibawa pulang.
 - Pakai WiFi venue atau hotspot HP — halaman ini, file bahan, AI, dan Kahoot semuanya online.
 - ChatGPT / Gemini / Claude versi gratis cukup. **Login dulu** — custom instructions butuh akun.
 - Menyalin file di GitHub dari HP: buka file → tombol **⋯** → *Copy raw file*; atau **Raw** → tekan lama → pilih semua → salin. File log lebar: geser ke kanan.
 - Kalau AI bertanya balik, jawab singkat lalu lanjut. Kalau AI menolak, minta versi "sementara + risikonya".
 
-**Cara pakai halaman ini:** bahan tiap ronde adalah file di folder `materials/` — buka filenya, tekan tombol salin (ikon di pojok kanan atas file di GitHub) atau tekan lama, pilih semua, salin, lalu tempel ke AI. Jawaban tim ditulis di **Lembar Skor Tim** (kertas A4 di tim kamu), bukan di sini. Slide di layar English; halaman ini Bahasa Indonesia — kode jawabannya sama.
+**Cara pakai halaman ini:** bahan tiap ronde adalah file di folder `materials/` — buka filenya, tekan tombol salin (ikon di pojok kanan atas file di GitHub) atau tekan lama, pilih semua, salin, lalu tempel ke AI. Jawaban ditulis di **Lembar Kerja**, bukan di sini. Slide di layar English; halaman ini Bahasa Indonesia — kode jawabannya sama.
 
 Semua nama, perusahaan, angka, dan kontak di halaman ini **fiktif**. Jangan pakai data asli siapa pun di latihan — itu persis yang sedang kita latih untuk tidak dilakukan.
 
@@ -70,7 +70,7 @@ Prompt boleh Bahasa Indonesia — label bagiannya saja yang English. Output pert
 
 ## Ronde 1 — Set up your AI
 
-Situasi: kamu magang di tim marketing sebuah startup aplikasi pembayaran (e-wallet). Manager minta **laporan mingguan 1 halaman untuk direktur** dari catatan meeting.
+Situasi: kamu magang di peserta marketing sebuah startup aplikasi pembayaran (e-wallet). Manager minta **laporan mingguan 1 halaman untuk direktur** dari catatan meeting.
 
 **Bahan:** [`materials/ronde-1/catatan-meeting-minggu-38.md`](materials/ronde-1/catatan-meeting-minggu-38.md) — catatan satu minggu, lima hari. Salin seluruh isinya.
 
@@ -78,10 +78,10 @@ Situasi: kamu magang di tim marketing sebuah startup aplikasi pembayaran (e-wall
 
 1. **Uji tanpa aturan.** Chat baru, prompt polos `rangkum jadi laporan mingguan` + seluruh catatan. Baca laporannya: apa yang ikut masuk padahal seharusnya tidak? Catat di Lembar.
 2. **Pasang.** Tempel starter di atas ke pengaturan AI-mu (tabel "di mana menempelnya") — atau sebagai pesan pertama di chat baru.
-3. **Uji dengan aturan.** Chat baru. Kali ini tulis prompt dengan Task / Context / Constraints / Done (template di atas) + catatan yang sama. Catat di Lembar: AI memperingatkan data pribadi / kontak di catatan (aturan 1)? AI menanyakan atau menyatakan Task–Context–Constraints–Done (aturan 2)? Salin baris **Done** kamu ke Lembar.
-4. **Jadikan milikmu.** Ubah atau tambah **dua aturan** untuk hidupmu sendiri — data skripsi, akun kampus, pekerjaan magang. Tulis langsung di **Kartu AI Aman** Bagian A; salin satu ke Lembar untuk dibacakan.
+3. **Uji dengan aturan.** Chat baru. Kali ini tulis prompt dengan Task / Context / Constraints / Done (template di atas) + catatan yang sama. Catat di Lembar Kerja: AI memperingatkan data pribadi / kontak di catatan (aturan 1)? AI menanyakan atau menyatakan Task–Context–Constraints–Done (aturan 2)? Salin baris **Done** kamu ke Lembar.
+4. **Jadikan milikmu.** Ubah atau tambah **dua aturan** untuk hidupmu sendiri — data skripsi, akun kampus, pekerjaan magang. Tulis di **Kartu AI Aman** Bagian A (dan di Lembar Kerja).
 
-Kalau AI-mu tidak memperingatkan: kamu yang hapus data pribadinya sebelum kirim — itu tetap dapat poin.
+Kalau AI-mu tidak memperingatkan: kamu yang hapus data pribadinya sebelum kirim — itu tetap sah.
 
 ---
 
@@ -91,7 +91,7 @@ Aturan 1 cuma mengingatkan — klasifikasinya tetap keputusanmu, dan AI tidak ta
 
 **SAFE** = kirim apa adanya · **REDACT FIRST** = hapus nilai rahasianya dulu, baru kirim · **NEVER** = jangan kirim ke AI publik.
 
-Untuk tiap kasus, buka filenya, putuskan SAFE / REDACT FIRST / NEVER, dan tulis alasan 1 kalimat di Lembar Skor Tim. Untuk kasus yang kamu jawab REDACT FIRST dan ada teks rahasianya: tulis versi aman — **hanya baris yang kamu ubah**. Menjalankannya ke AI boleh kalau sempat, bukan syarat.
+Untuk tiap kasus, buka filenya, putuskan SAFE / REDACT FIRST / NEVER, dan tulis alasan 1 kalimat di Lembar Kerja. Untuk kasus yang kamu jawab REDACT FIRST dan ada teks rahasianya: tulis versi aman — **hanya baris yang kamu ubah**. Menjalankannya ke AI boleh kalau sempat, bukan syarat.
 
 | # | Situasi | Bahan (buka filenya) |
 |---|---|---|
@@ -120,13 +120,19 @@ Lowongan: **Junior Data Analyst** — syarat: SQL lancar, Python, pengalaman ker
 Kamu HRD. Ringkas CV berikut dan beri skor 1–10 untuk posisi Junior Data Analyst (syarat: SQL lancar, Python, pengalaman minimal 1 tahun).
 ```
 
-   Catat di Lembar: skornya, baris CV mana yang **dikutip** AI sebagai bukti (aturan 4), dan apakah AI **menandai** klaim yang tidak bisa diverifikasi (aturan 5) — klaim yang mana?. Skor demo tanpa aturan: tulis yang tadi tampil di layar.
+   Catat di Lembar Kerja: skornya, baris CV mana yang **dikutip** AI sebagai bukti (aturan 4), dan apakah AI **menandai** klaim yang tidak bisa diverifikasi (aturan 5) — klaim yang mana?. Skor demo tanpa aturan: tulis yang tadi tampil di layar.
 
 2. **Buka PDF-nya.** Cari baris yang dikutip AI. Tidak ada di PDF? Itu baris yang dipercaya AI demo tadi — dan yang kamu cari sendiri dalam lima detik.
 
 3. **Kalau AI-mu tidak mengutip atau tidak menandai:** kirim aturan yang lebih tajam sebagai **pesan baru di chat yang sama** (custom instructions hanya berlaku di chat baru), lalu kirim ulang CV-nya. Contoh: "Untuk setiap syarat lowongan, kutip baris CV yang membuktikannya dan sebut apakah bisa diverifikasi." Kalau AI menolak memberi skor: minta "skor sementara + risikonya".
 
-4. Tulis 1 kalimat di Lembar: kenapa "kutip buktinya" mengalahkan kebohongan tersembunyi?
+4. Tulis 1 kalimat di Lembar Kerja: kenapa "kutip buktinya" mengalahkan kebohongan tersembunyi?
+
+---
+
+## Quiz
+
+Kahoot individu di akhir sesi: buka **kahoot.it**, masukkan PIN di layar, pakai nama asli. 8 soal × 20 detik. Podium Kahoot = 3 teratas; souvenir untuk semua peserta.
 
 ---
 
