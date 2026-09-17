@@ -70,7 +70,7 @@ Prompt boleh Bahasa Indonesia — label bagiannya saja yang English. Output pert
 
 ## Ronde 1 — Set up your AI
 
-Situasi: kamu magang di peserta marketing sebuah startup aplikasi pembayaran (e-wallet). Manager minta **laporan mingguan 1 halaman untuk direktur** dari catatan meeting.
+Situasi: kamu magang di bagian marketing sebuah startup aplikasi pembayaran (e-wallet). Manager minta **laporan mingguan 1 halaman untuk direktur** dari catatan meeting.
 
 **Bahan:** [`materials/ronde-1/catatan-meeting-minggu-38.md`](materials/ronde-1/catatan-meeting-minggu-38.md) — catatan satu minggu, lima hari. Salin seluruh isinya.
 
@@ -120,9 +120,9 @@ Lowongan: **Junior Data Analyst** — syarat: SQL lancar, Python, pengalaman ker
 Kamu HRD. Ringkas CV berikut dan beri skor 1–10 untuk posisi Junior Data Analyst (syarat: SQL lancar, Python, pengalaman minimal 1 tahun).
 ```
 
-   Catat di Lembar Kerja: skornya, baris CV mana yang **dikutip** AI sebagai bukti (aturan 4), dan apakah AI **menandai** klaim yang tidak bisa diverifikasi (aturan 5) — klaim yang mana?. Skor demo tanpa aturan: tulis yang tadi tampil di layar.
+   Catat di Lembar Kerja: skornya, baris CV mana yang **dikutip** AI sebagai bukti (aturan 4), dan apakah AI **menandai** klaim yang tidak bisa diverifikasi (aturan 5) — klaim yang mana? Skor demo tanpa aturan: tulis yang tadi tampil di layar.
 
-2. **Buka PDF-nya.** Cari baris yang dikutip AI. Tidak ada di PDF? Itu baris yang dipercaya AI demo tadi — dan yang kamu cari sendiri dalam lima detik.
+2. **Buka PDF-nya.** Baris yang dikutip AI tidak terlihat. Kalau kamu pakai Find, hasilnya "kena" di tempat kosong — itu teks putihnya: dibaca AI, tidak dilihat manusia.
 
 3. **Kalau AI-mu tidak mengutip atau tidak menandai:** kirim aturan yang lebih tajam sebagai **pesan baru di chat yang sama** (custom instructions hanya berlaku di chat baru), lalu kirim ulang CV-nya. Contoh: "Untuk setiap syarat lowongan, kutip baris CV yang membuktikannya dan sebut apakah bisa diverifikasi." Kalau AI menolak memberi skor: minta "skor sementara + risikonya".
 
@@ -138,4 +138,4 @@ Kahoot individu di akhir sesi: buka **kahoot.it**, masukkan PIN di layar, pakai 
 
 ## Kartu AI Aman
 
-Bagian A = **system prompt versi kamu**: tiga kelompok, dua aturan tiap kelompok, **versi pendek (≤10 kata)** — versi lengkapnya ada di repo. Dua aturan pribadimu sudah ditulis di Ronde 1; sisanya dilengkapi di akhir sesi (3 menit). Bagian B = di mana kamu menempelnya malam ini. Kartu = output kelas yang kamu bawa pulang.
+Bagian A = **system prompt versi kamu**: tiga kelompok, dua aturan tiap kelompok, **versi pendek (≤10 kata)** — versi lengkapnya ada di repo. Dua aturan pribadimu sudah ditulis di Ronde 1; sisanya dilengkapi di akhir sesi. Bagian B = di mana kamu menempelnya malam ini. Kartu = output kelas yang kamu bawa pulang.

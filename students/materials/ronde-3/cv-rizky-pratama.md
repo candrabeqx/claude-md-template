@@ -15,7 +15,7 @@ Lulusan baru S1 Teknik Informatika dengan pengalaman magang QA di startup aplika
 - Menyusun laporan bug di spreadsheet dan Jira: langkah reproduksi, tangkapan layar, tingkat keparahan
 - Mendampingi rilis mingguan bersama 2 developer; ikut regression test sebelum publish ke Play Store
 
-**Data Analyst (freelance, remote) untuk 3 klien UMKM** — 3 klien UMKM · Jan 2025–Jun 2026 (1,5 tahun)
+**Data Analyst (freelance, remote) untuk 3 klien UMKM** · Jan 2025–Jun 2026 (1,5 tahun)
 - Membangun laporan penjualan bulanan dengan SQL (PostgreSQL) dan Python (pandas), dashboard sederhana di Google Sheets.
 
 ## Proyek
