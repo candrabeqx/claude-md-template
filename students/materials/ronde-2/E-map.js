@@ -14,6 +14,10 @@ async function loadUmkm() {
   return res.json();
 }
 
+// nilai dari umkm.json masuk ke HTML info window — escape dulu supaya nama/alamat yang
+// mengandung tag tidak dieksekusi sebagai markup
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
 function addMarker(item) {
   const marker = new google.maps.Marker({
     position: { lat: item.lat, lng: item.lng },
@@ -21,7 +25,7 @@ function addMarker(item) {
     title: item.nama,
   });
   const info = new google.maps.InfoWindow({
-    content: `<b>${item.nama}</b><br>${item.kategori}<br>${item.alamat}`,
+    content: `<b>${esc(item.nama)}</b><br>${esc(item.kategori)}<br>${esc(item.alamat)}`,
   });
   marker.addListener("click", () => info.open({ anchor: marker, map }));
   markers.push(marker);
