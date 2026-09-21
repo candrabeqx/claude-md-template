@@ -79,7 +79,7 @@ Ceritanya: kamu magang di bagian marketing sebuah startup aplikasi pembayaran (e
 1. **Pasang.** Tempel starter di atas ke pengaturan AI kamu (tabel "di mana nempelnya") — atau jadi pesan pertama di chat baru.
 2. **Bersihin catatannya sendiri.** Baca catatannya pakai kacamata aturan 1: mana yang nggak boleh sampai ke AI publik? Hapus atau ganti sebelum kamu tempel — nomor kontak, link internal, identitas orang lain, nomor rekening. Tulis di Lembar Kerja apa aja yang kamu hapus. Bagian ini nggak bisa dikerjain AI buat kamu: begitu terkirim, datanya udah di luar.
 3. **Jalankan.** Chat baru. Tulis prompt pakai Task / Context / Constraints / Done (template di atas) + catatan versi bersihmu. Perhatiin: AI nanyain bagian yang kurang atau nyebutin asumsinya (aturan 2)? Hasilnya sesuai baris **Done** kamu? Salin baris Done ke Lembar Kerja.
-4. **Jadiin punyamu.** Ubah atau tambah **dua aturan** buat hidupmu sendiri — data skripsi, akun kampus, tempat magang. Tulis di **Kartu AI Aman** Bagian A (dan di Lembar Kerja).
+4. **Jadiin punyamu.** Ubah atau tambah **dua aturan** yang cocok sama keseharianmu sendiri — data skripsi, akun kampus, tempat magang. Tulis di **Kartu AI Aman** Bagian A (dan di Lembar Kerja).
 
 ---
 
