@@ -1,7 +1,7 @@
 // peta lokasi UMKM binaan — tugas akhir saya (Teknik Informatika, 2026)
 // halaman: umkm/index.html — menampilkan titik lokasi mitra dan rute terdekat dari kampus
 
-const API_KEY = "AIzaSyD-FAKE-KEY-1234567890abcdefghijkl"; // Google Maps key saya
+const API_KEY = "AIzaSyC0rMapK3yUntukTug4sAkh1r2026x"; // Google Maps key saya
 const CAMPUS = { lat: -6.9147, lng: 107.6098 };
 const DATA_URL = "./data/umkm.json";
 

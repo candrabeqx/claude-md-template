@@ -15,14 +15,14 @@ Take-home material from the ITSEC Cyber & AI Academy class *AI Security Fluency:
 
 ## The idea in one paragraph
 
-An AI assistant is a genius intern with three habits: it makes things up confidently, it repeats whatever you give it to whoever asks next, and it obeys whoever gives orders — including text hidden inside a document you asked it to read. An intern gets a briefing on day one. Your **system prompt** is that briefing: rules you write once, grouped by *when they fire* — before you send, while the AI reads outside material, before you trust the answer.
+An AI assistant is a genius intern on day one: it guesses rather than says "I don't know", it doesn't know what's confidential here, and it takes orders from anyone, including text hidden inside a document you asked it to read. Not its fault: nobody briefed it. Your **system prompt** is that briefing: rules you write once, grouped by *when they fire*: before you send, while the AI reads outside material, before you trust the answer.
 
 ## Install (2 minutes)
 
 1. Open a starter file above, copy the block.
 2. ChatGPT: Settings → Personalization → Custom instructions. Gemini: Settings & help → Personal Intelligence → Instructions for Gemini. Claude: Settings → Account → Instructions for Claude, or a Project's instructions. Any other tool: paste it as the first message of the chat. (Menu names change between versions — look for "custom instructions" or "instructions for …".)
-3. Change at least two rules so they fit your life — your thesis data, your campus accounts, your job.
-4. Test it: paste some meeting notes containing a phone number and ask for a summary. A briefed AI stops and asks.
+3. Change or shorten at least two rules so they fit your day-to-day: your thesis data, your campus accounts, your job.
+4. Test it: send "summarise these notes" with the class's cleaned, fictional notes ([`materials/ronde-1/catatan-meeting-minggu-38-redacted.md`](materials/ronde-1/catatan-meeting-minggu-38-redacted.md)). A briefed AI asks who it's for and how long (rule 2). Never test with real notes: cleaning before you send is your habit; the AI's warning is only a safety net.
 
 ## Try the hack yourself
 
