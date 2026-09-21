@@ -1,7 +1,7 @@
 # Catatan Meeting Tim Marketing — Minggu ke-38 (14–18 September 2026) — versi bersih untuk AI publik
 
 **Tim:** Dimas (lead), Rina (desain), Fajar (ads), Putri (CS), Aldi (magang)
-**Catatan:** versi ini sudah dibersihkan sesuai aturan 1 — nomor kontak, link internal, identitas pihak ketiga, dan nomor rekening dihapus atau diganti keterangan. Nama tim dan angka budget boleh tinggal: bukan rahasia, dan laporan butuh angka itu.
+**Catatan:** ini versi yang udah dibersihkan sesuai aturan 1 — nomor kontak, link internal, identitas orang luar, dan nomor rekening udah dihapus atau diganti keterangan. Nama tim dan angka budget boleh tinggal: bukan rahasia, dan laporannya butuh angka itu.
 
 **Produk:** SakuKampus — aplikasi pembayaran (e-wallet) untuk mahasiswa dan UMKM kampus
 
