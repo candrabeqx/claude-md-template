@@ -9,7 +9,7 @@ Take-home material from the ITSEC Cyber & AI Academy class *AI Security Fluency:
 | [`SYSTEM-PROMPT.id.md`](SYSTEM-PROMPT.id.md) | **Mulai di sini** — starter system prompt 8 aturan, Bahasa Indonesia |
 | [`SYSTEM-PROMPT.en.md`](SYSTEM-PROMPT.en.md) | The same, English |
 | [`materi-peserta.md`](materi-peserta.md) | The class page (Bahasa Indonesia): the three rounds, step by step |
-| [`materials/`](materials/) | The hands-on files: meeting notes (Round 1), six "catch the leak" documents A–F (Round 2), the CV with a hidden line as .md / .pdf / .docx (Round 3) |
+| [`materials/`](materials/) | The hands-on files: meeting notes plus a cleaned copy that doubles as the answer key (Round 1), six "catch the leak" documents A–F (Round 2), the CV with a hidden line as .md / .pdf / .docx (Round 3) |
 | [`hooks/`](hooks/) | Advanced, optional — Claude Code users only: a working layer-2 hook that blocks secret files before the AI can read them |
 | [`../CLAUDE.md`](../CLAUDE.md) | The work-scale version: the template the author uses with a coding assistant every day |
 

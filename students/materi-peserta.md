@@ -72,22 +72,20 @@ Prompt boleh Bahasa Indonesia — label bagiannya saja yang English. Output pert
 
 Situasi: kamu magang di bagian marketing sebuah startup aplikasi pembayaran (e-wallet). Manager minta **laporan mingguan 1 halaman untuk direktur** dari catatan meeting.
 
-**Bahan:** [`materials/ronde-1/catatan-meeting-minggu-38.md`](materials/ronde-1/catatan-meeting-minggu-38.md) — catatan satu minggu, lima hari. Salin seluruh isinya.
+**Bahan:** [`materials/ronde-1/catatan-meeting-minggu-38.md`](materials/ronde-1/catatan-meeting-minggu-38.md) — catatan satu minggu, lima hari. Versi yang sudah dibersihkan ada di [`catatan-meeting-minggu-38-redacted.md`](materials/ronde-1/catatan-meeting-minggu-38-redacted.md) — buka hanya kalau kehabisan waktu; itu juga kunci jawaban langkah 2.
 
 **Langkah**
 
-1. **Uji tanpa aturan.** Chat baru, prompt polos `rangkum jadi laporan mingguan` + seluruh catatan. Baca laporannya: apa yang ikut masuk padahal seharusnya tidak? Catat di Lembar.
-2. **Pasang.** Tempel starter di atas ke pengaturan AI-mu (tabel "di mana menempelnya") — atau sebagai pesan pertama di chat baru.
-3. **Uji dengan aturan.** Chat baru. Kali ini tulis prompt dengan Task / Context / Constraints / Done (template di atas) + catatan yang sama. Catat di Lembar Kerja: AI memperingatkan data pribadi / kontak di catatan (aturan 1)? AI menanyakan atau menyatakan Task–Context–Constraints–Done (aturan 2)? Salin baris **Done** kamu ke Lembar.
+1. **Pasang.** Tempel starter di atas ke pengaturan AI-mu (tabel "di mana menempelnya") — atau sebagai pesan pertama di chat baru.
+2. **Bersihkan catatannya sendiri.** Baca catatan itu seperti aturan 1: apa yang tidak boleh sampai ke AI publik? Hapus atau ganti sebelum kamu tempel — nomor kontak, link internal, identitas orang lain, nomor rekening. Tulis di Lembar Kerja apa saja yang kamu hapus. Bagian ini tidak bisa dikerjakan AI untukmu: begitu terkirim, datanya sudah di luar.
+3. **Jalankan.** Chat baru. Tulis prompt dengan Task / Context / Constraints / Done (template di atas) + catatan versi bersihmu. Perhatikan: AI menagih bagian yang kurang atau menyatakan asumsinya (aturan 2)? Hasilnya sesuai baris **Done** kamu? Salin baris Done ke Lembar Kerja.
 4. **Jadikan milikmu.** Ubah atau tambah **dua aturan** untuk hidupmu sendiri — data skripsi, akun kampus, pekerjaan magang. Tulis di **Kartu AI Aman** Bagian A (dan di Lembar Kerja).
-
-Kalau AI-mu tidak memperingatkan: kamu yang hapus data pribadinya sebelum kirim — itu tetap sah.
 
 ---
 
 ## Ronde 2 — Catch the leak
 
-Aturan 1 cuma mengingatkan — klasifikasinya tetap keputusanmu, dan AI tidak tahu mana yang rahasia di kantormu. Ronde ini **tanpa AI**.
+Aturan 1 berlaku sebelum kamu kirim — klasifikasinya keputusanmu; AI hanya jaring pengaman dan tidak tahu mana yang rahasia di kantormu. Ronde ini **tanpa AI**.
 
 **SAFE** = kirim apa adanya · **REDACT FIRST** = hapus nilai rahasianya dulu, baru kirim · **NEVER** = jangan kirim ke AI publik.
 
