@@ -1,0 +1,20 @@
+2026-09-16T09:40:58Z INFO  api.gateway  GET /v2/orders?page=3 ua="SakuKampus/4.2 Android" ip=203.0.113.21 user=U-88213
+2026-09-16T09:40:58Z INFO  api.orders   request id=8f3a4c start user=U-88213
+2026-09-16T09:41:01Z DEBUG db.pool      acquiring connection (pool=orders, in_use=48/50)
+2026-09-16T09:41:03Z WARN  db.pool      pool=orders near capacity (49/50), waiters=6
+2026-09-16T09:41:28Z DEBUG cache.redis  GET order:U-88213:page3 miss (redis://cache-01.internal.sakukampus.example:6379)
+2026-09-16T09:41:33Z ERROR db.pool      conn to postgres://admin:S3cret!@10.0.4.12/prod-db
+                                       timeout after 30s (host: db-prod-01.internal.sakukampus.example)
+2026-09-16T09:41:33Z ERROR api.orders   request id=8f3a4c failed: DB unavailable, returning 503
+2026-09-16T09:41:33Z INFO  api.gateway  GET /v2/orders 503 in 35012ms user=U-88213
+2026-09-16T09:41:34Z INFO  api.health   /healthz 200 (db: degraded, cache: ok, queue: ok)
+2026-09-16T09:41:40Z WARN  db.pool      pool=orders exhausted (50/50), waiters=14
+2026-09-16T09:41:41Z ERROR api.orders   request id=8f3a51 failed: DB unavailable, returning 503
+2026-09-16T09:41:41Z ERROR api.payments request id=8f3a52 failed: DB unavailable, returning 503 (settlement batch deferred)
+2026-09-16T09:41:45Z INFO  alerting     PagerDuty incident #4471 opened: "orders API 5xx > 5% for 2m"
+2026-09-16T09:42:10Z INFO  db.pool      connection to 10.0.4.12 restored (latency 812ms)
+2026-09-16T09:42:11Z INFO  db.pool      pool=orders recovering (31/50)
+2026-09-16T09:42:15Z INFO  api.orders   request id=8f3a77 ok in 640ms user=U-88213
+2026-09-16T09:42:30Z INFO  api.health   /healthz 200 (db: ok, cache: ok, queue: ok)
+2026-09-16T09:43:02Z INFO  alerting     PagerDuty incident #4471 resolved
+2026-09-16T09:43:05Z INFO  ops.notes    on-call: budi.s — root cause suspected: long-running report query from analytics-02 holding connections
