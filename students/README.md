@@ -9,7 +9,7 @@ Take-home material from the ITSEC Cyber & AI Academy class *AI Security Fluency:
 | [`SYSTEM-PROMPT.id.md`](SYSTEM-PROMPT.id.md) | **Mulai di sini** — starter system prompt 8 aturan, Bahasa Indonesia |
 | [`SYSTEM-PROMPT.en.md`](SYSTEM-PROMPT.en.md) | The same, English |
 | [`materi-peserta.md`](materi-peserta.md) | The class page (Bahasa Indonesia): the three rounds, step by step |
-| [`materials/`](materials/) | The hands-on files: meeting notes plus a cleaned copy that doubles as the answer key (Round 1), six "catch the leak" documents A–F (Round 2), the CV with a hidden line as .md / .pdf / .docx (Round 3) |
+| [`materials/`](materials/) | The hands-on files: meeting notes plus a cleaned copy that doubles as the answer key (Round 1), six "catch the leak" documents A–F (Round 2), the loan application with a hidden line as .md / .pdf / .docx (Round 3) |
 | [`hooks/`](hooks/) | Advanced, optional — Claude Code users only: a working layer-2 hook that blocks secret files before the AI can read them |
 | [`../CLAUDE.md`](../CLAUDE.md) | The work-scale version: the template the author uses with a coding assistant every day |
 
@@ -26,7 +26,7 @@ An AI assistant is a genius intern on day one: it guesses rather than says "I do
 
 ## Try the hack yourself
 
-[`materials/ronde-3/cv-rizky-pratama.pdf`](materials/ronde-3/cv-rizky-pratama.pdf) is a fictional CV in which one line is *white text* — invisible to a human reviewer, read by the AI (the paste version is next to it as `.md`). Ask an AI with no rules to score it: the planted line lifts the score. Ask an AI with rules 3–5: it has to quote its evidence, and the only line supporting the high score is the one that isn't in the visible document. That is the whole class in one exercise.
+[`materials/ronde-3/pengajuan-kredit-wahyu-ramadhan.pdf`](materials/ronde-3/pengajuan-kredit-wahyu-ramadhan.pdf) is a fictional loan application in which one line is *white text* — invisible to a human reviewer, read by the AI (the paste version is next to it as `.md`). The applicant's visible income is below the lender's minimum; ask an AI with no rules to score it: the planted line quietly pushes the combined income over the threshold and lifts the score. Ask an AI with rules 4–5: it has to quote its evidence, and the only line supporting the pass is the one that isn't in the visible document. That is the whole class in one exercise.
 
 ## What's next — if you build agents
 
