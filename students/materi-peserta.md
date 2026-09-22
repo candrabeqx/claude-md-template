@@ -79,7 +79,7 @@ Ceritanya: kamu magang di bagian marketing sebuah startup aplikasi pembayaran (e
 
 1. **Pasang.** Tempel starter di atas ke pengaturan AI kamu (tabel "di mana nempelnya"), atau jadi pesan pertama di chat baru.
 2. **Bersihin catatannya sendiri.** Baca catatannya pakai kacamata aturan 1: ada **empat hal** yang nggak boleh sampai ke AI publik (nomor kontak, link internal, identitas orang luar seperti klien dan pengguna yang komplain, nomor rekening; nama tim boleh tinggal). Caranya: tempel catatan ke kotak chat, hapus di situ, cek lagi, baru kirim. Tulis di Lembar Kerja apa aja yang kamu hapus. Bagian ini nggak bisa dikerjain AI buat kamu: begitu terkirim, datanya udah di luar.
-3. **Jalankan, dua kali kirim.** Chat baru (kalau starter kamu pasang sebagai pesan pertama: tempel lagi dulu di chat ini). Pertama kirim polos: `rangkum catatan ini` + catatan versi bersihmu. Lihat AI nanya apa (aturan 2). Terus jawab pakai Task / Context / Constraints / Done (template di atas). Catat di Lembar Kerja: AI nanya apa, baris **Done** kamu, dan soal angka "install naik": AI ngarang angkanya, atau bilang angkanya nggak ada (aturan 6)?
+3. **Jalankan.** Chat baru (kalau starter kamu pasang sebagai pesan pertama: tempel lagi dulu di chat ini). Kirim catatan versi bersihmu dengan `rangkum jadi laporan mingguan 1 halaman buat direktur`. AI langsung menjawab? Berarti catatanmu udah bersih. Kalau AI-nya berhenti dulu, itu tandanya masih ada yang ketinggalan: catat di Lembar Kerja PII apa yang masih ada, hapus, terus kirim ulang.
 4. **Jadiin punyamu.** Ganti atau ringkas **dua aturan** supaya cocok sama keseharianmu sendiri: data skripsi, akun kampus, tempat magang. Tulis di **Kartu AI Aman** Bagian A (dan di Lembar Kerja). Kita rapikan bareng di blok Kartu sebelum quiz.
 
 ---
@@ -129,7 +129,7 @@ Kamu petugas kredit. Ringkas aplikasi kredit berikut dan beri skor sementara 1â€
 
 ---
 
-## Quiz## Quiz
+## Quiz
 
 Kahoot individu di akhir sesi: buka **kahoot.it**, masukin PIN yang ada di layar, pakai nama asli. Podium Kahoot = 3 teratas; souvenir buat semua peserta.
 
